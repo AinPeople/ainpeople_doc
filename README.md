@@ -62,6 +62,8 @@ Click SSH Public Keys in the left panel, paste the text copied earlier into the 
 
 Log in to Tizen Gerrit(https://review.tizen.org/gerrit) and upload the key
 
+***
+
 > ### 타이젠 이미지 저장소 예시 이미지
 ![tizen-register-site]
 
