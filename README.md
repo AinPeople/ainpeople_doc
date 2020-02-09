@@ -51,9 +51,9 @@ The ~/.ssh/config file must not be written in by other users. Make sure to remov
 
 ***
 
-> Copy the full text in ~/.ssh/id_rsa.pub
+> * Copy the full text in ~/.ssh/id_rsa.pub
 
-> Log in to Tizen Gerrit and upload the key
+> * Log in to Tizen Gerrit and upload the key
 
 ssh 등록 url : [Tizen ssh key 등록 저장소]
 
