@@ -46,7 +46,7 @@ Both "tizen" and "review.tizen.org" are aliases of the hostname. "tizen" is conf
 The ~/.ssh/config file must not be written in by other users. Make sure to remove the write permission by executing chmod o-w ~/.ssh/config. For more information on ssh_config, see man ssh_config.
 ```
 
-이미지 예시)
+config 생성 예시 이미지)  
 ![ssh-config]
 
 * Copy the full text in ~/.ssh/id_rsa.pub
@@ -60,15 +60,12 @@ Click SSH Public Keys in the left panel, paste the text copied earlier into the 
 
 Log in to Tizen Gerrit(https://review.tizen.org/gerrit) and upload the key
 
+타이젠 이미지 저장소 예시 이미지)  
+![tizen-register-site]
 
+성공적으로 등록시 ssh tizen 입력 후 확인 가능한 예시 이미지)
+![ssh-success-msg]
 
-* Verify the SSH connection
-
-```shell
-ssh tizen
-
-**** Welcome to Gerrit Code Review ****
-```
 
 ##### Configuring Git for Gerrit Access
 
@@ -300,3 +297,6 @@ GBS local build with package list
 <!-- Markdown link & img dfn's -->
 [Tizen ssh key 등록 저장소]: https://review.tizen.org/gerrit
 [ssh-config]: https://github.com/ainpeople/ainpeople_doc/blob/master/ainci-tizen/images/ssh_config.png
+[tizen-register-site]: https://github.com/ainpeople/ainpeople_doc/blob/master/ainci-tizen/images/tizen_ssh_register.png
+[ssh-config]: https://github.com/ainpeople/ainpeople_doc/blob/master/ainci-tizen/images/ssh_config.png
+[ssh-success-msg]: https://github.com/ainpeople/ainpeople_doc/blob/master/ainci-tizen/images/ssh_result.png
