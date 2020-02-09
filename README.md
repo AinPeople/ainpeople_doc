@@ -150,7 +150,7 @@ sudo chmod a+x ~/bin/repo
 ```
 
 * PATH의 경우 위와 같이 사용시 매번 입력을 해줘야 하므로 .bashrc 파일 제일 하단에  
-  PATH=~/bin:$PATH 입력 후 source .bashrc를 해주면 해당 계정으로 접속시 자동으로 설정이 
+  PATH=~/bin:$PATH 입력 후 source .bashrc를 해주면 해당 계정으로 접속시 자동으로 설정이 됨 
 
 ##### 빌드 도구(GBS, MIC) 설치
 
