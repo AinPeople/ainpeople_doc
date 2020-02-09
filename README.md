@@ -29,6 +29,9 @@ ssh-keygen [-t rsa] [-C "<Comments>"]
 
 * Create an SSH configuration file, ~/.ssh/config, and add
 
+<Gerrit_Username>를 Tizen 계정 명으로 변경
+예) User <Gerrit_Username> -> User tizen_guest77
+
 ```shell
 Host tizen review.tizen.org
 Hostname review.tizen.org
