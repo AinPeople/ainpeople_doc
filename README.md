@@ -46,7 +46,8 @@ Both "tizen" and "review.tizen.org" are aliases of the hostname. "tizen" is conf
 The ~/.ssh/config file must not be written in by other users. Make sure to remove the write permission by executing chmod o-w ~/.ssh/config. For more information on ssh_config, see man ssh_config.
 ```
 
-
+이미지 예시)
+![ssh-config]
 
 * Copy the full text in ~/.ssh/id_rsa.pub
 
@@ -298,4 +299,4 @@ GBS local build with package list
 
 <!-- Markdown link & img dfn's -->
 [Tizen ssh key 등록 저장소]: https://review.tizen.org/gerrit
-[AinCI-Tizen Build]: https://github.com/ainpeople/ainpeople_doc/blob/master/ainci-tizen/images/AinCI-Tizen_build.jpg
+[ssh-config]: https://github.com/ainpeople/ainpeople_doc/blob/master/ainci-tizen/images/ssh_config.png
