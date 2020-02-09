@@ -138,6 +138,8 @@ url = http://download.tizen.org/releases/daily/tizen/unified/tizen-unified_20170
 
 ###### Repo is a repository management tool built on top of git.  Multiple git repositories can be downloaded with a single repo command.
 
+* 관리의 용의함을 위해 bin 폴더를 계정에 만들어 운영하는 것을 추천함
+
 ```shell
 mkdir ~/bin/
 PATH=~/bin:$PATH
@@ -146,6 +148,9 @@ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/rep
 
 sudo chmod a+x ~/bin/repo
 ```
+
+* PATH의 경우 위와 같이 사용시 매번 입력을 해줘야 하므로 .bashrc 파일 제일 하단에  
+  PATH=~/bin:$PATH 입력 후 source .bashrc를 해주면 해당 계정으로 접속시 자동으로 설정이 
 
 ##### 빌드 도구(GBS, MIC) 설치
 
