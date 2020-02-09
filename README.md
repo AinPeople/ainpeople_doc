@@ -86,7 +86,7 @@ git config --global user.email "<E-mail_Address>"
 ###### Setting Up the Default GBS Configuration File
 
 ```shell
-general]
+[general]
 profile = profile.unified_standard
 
 Note: The default GBS build parameters, based on the above block, are as follows:
