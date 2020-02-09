@@ -29,6 +29,9 @@ ssh-keygen [-t rsa] [-C "<Comments>"]
 
 * Create an SSH configuration file, ~/.ssh/config, and add
 
+<Gerrit_Username>를 Tizen 계정 명으로 변경
+예) User <Gerrit_Username> -> User tizen_guest77
+
 ```shell
 Host tizen review.tizen.org
 Hostname review.tizen.org
@@ -49,8 +52,14 @@ The ~/.ssh/config file must not be written in by other users. Make sure to remov
 
 * Log in to Tizen Gerrit and upload the key
 
+ssh 등록 url : [Tizen ssh key 등록 저장소]
+
 In the Gerrit Web page, click the user name on the top right corner (with an inverted triangle on the right), and select Settings to display the Settings Web page.
 Click SSH Public Keys in the left panel, paste the text copied earlier into the Add SSH Public Key box, and click Add.
+
+Log in to Tizen Gerrit(https://review.tizen.org/gerrit) and upload the key
+
+
 
 * Verify the SSH connection
 
@@ -285,3 +294,8 @@ Jenkins master must be restarted to reload all GBS Jenkins jobs after installati
 GBS local full build
 GBS local build with package list
 ```
+
+
+<!-- Markdown link & img dfn's -->
+[Tizen ssh key 등록 저장소]: https://review.tizen.org/gerrit
+[AinCI-Tizen Build]: https://github.com/ainpeople/ainpeople_doc/blob/master/ainci-tizen/images/AinCI-Tizen_build.jpg
